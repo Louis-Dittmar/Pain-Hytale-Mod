@@ -1,0 +1,192 @@
+{
+  "TranslationProperties": {
+    "Name": "Dark Block",
+    "Description": "Mein neuer dunkler Block"
+  },
+  "Id": "My_Dark_Block",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "My_Dark_Block"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#ffffff",
+    "BlockSoundSetId": "Glass",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "RandomRotation": "None",
+    "Textures": [
+      {
+        "All": "BlockTextures/Lamp/lamp_0.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_10.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_11.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_12.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_13.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_14.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_15.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_16.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_18.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_19.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_2.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_20.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_21.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_22.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_23.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_24.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_25.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_26.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_27.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_28.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_29.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_3.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_30.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_31.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_32.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_33.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_34.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_35.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_36.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_37.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_38.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_39.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_4.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_40.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_41.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_42.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_43.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_44.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_5.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_6.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_7.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_8.png"
+      },
+      {
+        "All": "BlockTextures/Lamp/lamp_9.png"
+      }
+    ],
+    "VariantRotation": "UpDownNESW",
+    "Light": {
+      "Radius": 5,
+      "Color": "#fff"
+    },
+    "RequiresAlphaBlending": false,
+    "Opacity": "Solid",
+    "Effect": [
+      "None"
+    ],
+    "Tint": [
+      "#ffffff"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.588,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Dark_Block.png"
+}

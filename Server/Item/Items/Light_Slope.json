@@ -1,0 +1,99 @@
+{
+  "TranslationProperties": {
+    "Name": "Light Block Sloap",
+    "Description": "Erste Sloap"
+  },
+  "Id": "My_New_Block",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Stone",
+    "Flags": {
+      "IsUsable": false,
+      "IsStackable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "my_new_block"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#ebebeb",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "RandomRotation": "None",
+    "RequiresAlphaBlending": false,
+    "CubeShadingMode": "Standard",
+    "CustomModel": "Blocks/slope_light.blockymodel",
+    "RotationYawPlacementOffset": "None",
+    "PlacementSettings": {
+      "AllowRotationKey": true,
+      "PlaceInEmptyBlocks": false,
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/white01.png"
+      },
+      {
+        "All": "BlockTextures/white02.png"
+      },
+      {
+        "All": "BlockTextures/white03.png"
+      },
+      {
+        "All": "BlockTextures/white04.png"
+      },
+      {
+        "All": "BlockTextures/white05.png"
+      },
+      {
+        "All": "BlockTextures/white06.png"
+      },
+      {
+        "All": "BlockTextures/white07.png"
+      },
+      {
+        "All": "BlockTextures/white08.png"
+      },
+      {
+        "All": "BlockTextures/white09.png"
+      }
+    ],
+    "Opacity": "Solid",
+    "CustomModelScale": 1,
+    "VariantRotation": "UpDownNESW",
+    "Looping": false,
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/slope_white.png"
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Light_Slope.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

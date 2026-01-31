@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "Dark Block",
+    "Description": "Mein neuer dunkler Block"
+  },
+  "Id": "My_Dark_Block",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "My_Dark_Block"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "BlockTextures/black01.png"
+      },
+      {
+        "All": "BlockTextures/black02.png"
+      },
+      {
+        "All": "BlockTextures/black03.png"
+      },
+      {
+        "All": "BlockTextures/black04.png"
+      },
+      {
+        "All": "BlockTextures/black05.png"
+      },
+      {
+        "All": "BlockTextures/black06.png"
+      },
+      {
+        "All": "BlockTextures/black07.png"
+      },
+      {
+        "All": "BlockTextures/black08.png"
+      },
+      {
+        "All": "BlockTextures/black09.png"
+      },
+      {
+        "All": "BlockTextures/black10.png"
+      }
+    ],
+    "ParticleColor": "#1a1a1a",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "RandomRotation": "None"
+  },
+  "IconProperties": {
+    "Scale": 0.588,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Dark_Block.png"
+}
